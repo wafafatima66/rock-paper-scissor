@@ -14,6 +14,8 @@ const comp_id = document.getElementById("comp");
 let compStatus = false ;
 
 
+
+
 function getComputerChoice(){
     const choices = ['r','p','s'];
     const randomNumber = Math.floor(Math.random() * 3);
